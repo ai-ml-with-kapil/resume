@@ -27,9 +27,12 @@ body{
     font-weight: bold;
 }
 
+
 .navbar{
     background-color: black;
     display: flex;
+    position: sticky;
+    top : 0;
 
 }
 
@@ -37,8 +40,6 @@ body{
     display: flex;
     justify-content: right;
     align-items: center; 
-    position: sticky;
-    top : 0;
     cursor: pointer;
 }
 
@@ -108,7 +109,7 @@ body{
 }
 
 .subcontainer{
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .header{
@@ -117,4 +118,32 @@ body{
     font-weight: bold;
     font-size:30px;
     text-decoration: underline dotted;
+}
+
+.main-section{
+    width: 90%;
+    margin: auto;
+}
+
+.companyName{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.CompName{
+    justify-content:left;
+    margin-top: 15px;
+}
+
+.date_f2{
+    justify-content:right;
+    margin-left: 70%;
+    align-items: center;
+}
+H4{
+    margin-bottom: 5px;
+}
+li{
+    margin-bottom: 5px;
 }
