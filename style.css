@@ -10,10 +10,15 @@ body{
     background: url("img/bg5.jpeg") rgba(0,0,0,0.8) ;
     background-size: cover;
     background-blend-mode: darken;
-    height: 100vh;
+    /* height: 100vh; */
     color: whitesmoke;
     font-family: 'Source Serif 4', sans-serif;
 
+}
+.background{
+    background: url("img/bg5.jpeg") rgba(0,0,0,0.8) ;
+    background-size: cover;
+    background-blend-mode: darken;
 }
 
 .main-box{
@@ -50,7 +55,7 @@ body{
 }
 
 .main-section{
-    margin-top:50px;
+
     position: sticky;
     top:0;
 }
@@ -111,4 +116,8 @@ body{
     border: 2px solid rgb(166, 237, 236);
     border-radius: 20px;
     font-size: 28px;
+}
+
+.sectionpad{
+    margin-top:150px;
 }
