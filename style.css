@@ -5,9 +5,11 @@
     margin:0;
 }
 
-.background {
-    background-color: rgb(0,0,0);
+body{
+    /* background-color: rgb(0,0,0); */
+    background: url("img/bg5.jpeg") rgba(0,0,0,0.8) ;
     background-size: cover;
+    background-blend-mode: darken;
     height: 100vh;
     color: whitesmoke;
     font-family: 'Source Serif 4', sans-serif;
@@ -16,24 +18,97 @@
 
 .main-box{
     display: flex;
-    max-width: 50%;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 .firstHalf{
-    width:50%;
+    width:20%;
     justify-content: center;
     align-items: center;
-    margin-top:30px;
+
 }
 .secondHalf{
-    width:50%;
+    width:80%;
+    margin-top:30px;
     justify-content: center;
     align-items: center;
 }
 
 .dp{
-    width:50%;
+    width:40%;
     border: 1pt solid black;
     border-radius:10px;
 
+}
+
+.Name{
+    font-weight : bold;
+    font-size : 44px;
+}
+
+.main-section{
+    margin-top:50px;
+    position: sticky;
+    top:0;
+}
+
+.fonticon{
+    margin-right: 5px;
+
+}
+
+.linkstyle{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.subsubtext{
+    margin: 5px 0px;
+}
+
+.para{
+    margin: 10px 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.nav-list{ 
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px; 
+}
+
+.nav-list li a{
+    background-color: rgb(166, 237, 236);
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 5px;
+    border: 2px solid rgb(166, 237, 236);
+    border-radius: 20px;
+}
+
+.nav-list li a:hover{
+    background-color: rgb(166, 237, 236);
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 5px;
+    border: 2px solid rgb(166, 237, 236);
+    border-radius: 20px;
+    font-size: 28px;
 }
