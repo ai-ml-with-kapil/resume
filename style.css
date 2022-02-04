@@ -10,3 +10,6 @@ body{
     background-blend-mode: darken;
     color: seashell;
 }
+.profilepic{
+    width: 20%;
+}
